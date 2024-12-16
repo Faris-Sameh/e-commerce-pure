@@ -49,7 +49,7 @@ function validate() {
     localStorage.setItem('name', user);
     localStorage.setItem('email', email);
     localStorage.setItem('password', pass);
-    window.location.href = "login.html?success=true";
+    window.location.href = "Login.html?success=true";
     return false;
 }
 
